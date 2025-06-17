@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Our Product</h1>
+    </header>
+
+<main class="product-grid" id="productContainer"></main>
+
+
+<div id="productDetail"></div>
+
+<a href="product.html?id=1">View Details</a>
+
+<div id="cartContainer"></div>
+  <h2 id="totalPrice">Total: Rs. 0</h2>
+
+  <main class="checkout-container">
+    <h1>Checkout</h1>
+
+    <!-- Order Summary -->
+    <section id="orderSummary">
+      <h2>Order Summary</h2>
+      <div id="summaryItems"></div>
+      <p id="totalAmount"></p>
+    </section>
+
+    <!-- Checkout Form -->
+    <section class="checkout-form">
+      <h2>Enter Your Details</h2>
+      <form id="checkoutForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="card" placeholder="Card Number" required>
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
+  </main>
+
+
+
+<script src="./index.js"></script>
+</body>
+</html>
